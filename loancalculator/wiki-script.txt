@@ -1,0 +1,17 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,C:\java\fitnesse4\dotnet4\fitsharp.dll %p}
+!define TEST_RUNNER {C:\java\fitnesse4\dotnet4\Runner.exe}
+
+!path C:\work\software\c_sharp\loancalculator\loancalculator\bin\Debug\loancalculator.exe
+
+
+|import       |
+|fitnesse_demo|
+
+
+|Loan Calculator                          |
+|Loan Amount|Fixed Rate|Re Payment Amount?|
+|300.00     |3.40      |310.4            |
